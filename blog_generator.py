@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = 'your-api-key-here'
+#openai.api_key = 'your-api-key-here'
 
 def generate_blog(tema):
     respuesta = openai.chat.completions.create(
